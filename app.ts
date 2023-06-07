@@ -1,12 +1,12 @@
 let card1:HTMLButtonElement | null = null;
 let card2:HTMLButtonElement | null = null;
-let openedCards:number = 0;
-let hits:number = 0;
-let secondsLeft:number = 30;
-let moves: number = 0;
+let openedCards = 0;
+let hits = 0;
+let secondsLeft = 30;
+let moves = 0;
 let initialSecs:number = secondsLeft;
-let canOpenCards:boolean = true;
-let timerActive:boolean = false;
+let canOpenCards = true;
+let timerActive = false;
 let timeLeft:number;
 let numbers: number[] = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8];
 numbers = numbers.sort(() => Math.random() - .5);
